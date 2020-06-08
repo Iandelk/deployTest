@@ -1,0 +1,208 @@
+@font-face{
+    font-family: Jokerman; src: url('css/Jokerman Regular.ttf')
+}
+
+.navbar-custom {
+    background-color: #ffdf00;
+    font-family: Jokerman;
+    font-size: 25px;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: skyblue;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: green;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    background-color: #ffdf00;
+    font-family: Jokerman;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: skyblue;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: green;
+}
+
+.btn-outline-success{
+    border-color: green;
+    color:green;
+    font-weight: Bold;
+    font-size: 20px;
+    border-width: 3px;
+}
+
+.btn-outline-success:hover{
+    color:skyblue;
+}
+
+
+footer{
+    background-color: green;
+}
+.custom-footer-text{
+    color: skyblue;
+    font-family: Jokerman;
+}
+.jumbotron h1{
+    font-family: Jokerman;
+    color: green;
+}
+
+.jumbotron p{
+    color: green;
+    font-weight: 500;
+}
+
+.sideTitle{
+    padding: 6px 8px 6px 16px;
+    background-color: skyblue
+}
+
+.sidenav {
+    font-family: Jokerman;
+    width: 200px; /* Set the width of the sidebar */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffdf00; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+/* The navigation menu links */
+.btn-link {
+    border: none;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: green;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.btn-link:hover {
+    color: skyblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.btn-link:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: skyblue;
+    cursor: pointer;
+}
+
+/* Style page content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.card-img-top {
+    height: 10rem;
+    width: 10rem;
+    margin: 25px;
+    object-fit: fill; /* Do not scale the image */
+}
+
+.back-card{
+    background-color: skyblue;
+}
+
+.card-body{
+    background-color: skyblue;
+}
+
+#wrapper {
+    padding-left: 250px;
+}
+.card{
+    width:20rem;
+    border: none;
+}
+
+.cardbodyheight{
+    height: 11rem;
+}
+
+#sidebar-wrapper {
+    margin-left: -250px;
+    left: 250px;
+    width: 200px;
+    background: #ffdf00;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+.img-cart {
+    display: block;
+    max-width: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table tr td{
+    border:2px solid #ffdf00;    
+}
+
+.table tr th {
+    background:#ffdf00;    
+}
+
+.panel-shadow {
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.table-responsive{
+    overflow-x: visible;
+}
+.login_f{
+    padding-top: 3vh; 
+    padding-bottom: 5vh; 
+}
+
+.txt_login_reg_font{
+    font-family: initial;
+}
+
+.login_txt_size{
+    font-size: 20px;
+}
+.table-placanje{
+    border:none;
+    margin:0 auto;
+    font-size: 18px;
+    
+}
+
+.paypal_button{
+    width:20%;
+    padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}

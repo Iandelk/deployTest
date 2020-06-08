@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="WebshopPU" transaction-type="RESOURCE_LOCAL">
+ <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>hr.ivor.model.Osoba</class>
+    <class>hr.ivor.model.Proizvod</class>
+    <class>hr.ivor.model.Stavka</class>
+    <class>hr.ivor.model.Placanje</class>
+    <class>hr.ivor.model.PovijestPrijave</class>
+    <class>hr.ivor.model.Kategorija</class>
+    <class>hr.ivor.model.Kosarica</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="dbc:sqlserver://ivordatabase.database.windows.net:1433;database=WebShopDatabase;/>
+      <property name="javax.persistence.jdbc.user" value="ivor@ivordatabase"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Andelko2208"/>
+    </properties>
+  </persistence-unit>
+</persistence>
+
